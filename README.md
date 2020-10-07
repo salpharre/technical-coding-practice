@@ -4,6 +4,4 @@
 
 Code separated into descriptive-named folders to represent the type of coding problem. Some folders will have pre-built testing files, others will not. This repository is a side project to coach myself into coding everyday to better prepare for tech assessments.
 
-## Table of Contents
 
-* 
