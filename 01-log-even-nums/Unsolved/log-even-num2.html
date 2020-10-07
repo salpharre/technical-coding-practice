@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // printing actual values in array, not just index
+        function logEvenNum(num) {
+            for(let i = 0; i < num.length; i++) {
+                if(num[i] % 2 === 0) {
+                    console.log(num[i]);
+                }
+            }
+        };
+        const nums = [0, 2, 1, 4, 6, 3, 12];
+        console.log(logEvenNum(nums));
+
+
+    </script>
+</body>
+</html>
