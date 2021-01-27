@@ -1,13 +1,16 @@
 // Write code to return the largest number in the given array
 
 var maxNum = function (arr) {
+    //initiate a varable
     let max = 0;
-
+    //iterate through array and if number in array is larger then current number in max variable then replace the number
+    //and that becomes the newest largest number
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] > max) {
             max = arr[i]
         }
     }
+    //return largest number
     return max;
 
 };
